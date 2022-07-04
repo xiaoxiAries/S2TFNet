@@ -13,8 +13,6 @@ def build_model(cfg, device, local_rank):
         cfg (configs): configs that contains the hyper-parameters to build the
         backbone. Details can be seen in slowfast/config/defaults.py.
     """
-    # print(cfg.NUM_GPUS, torch.cuda.device_count())
-    # assert (cfg.NUM_GPUS <= torch.cuda.device_count()), "Cannot use more GPU devices than available"
 
     # Construct the model
     model = generate_model(cfg)
