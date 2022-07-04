@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
 
 """Wrapper to train and test a video classification model."""
 
@@ -12,11 +11,6 @@ from Non_I3D.utils.parser import load_config, parse_args
 
 from train_net import train
 from inference import test
-
-os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
-os.environ["CUDA_VISIBLE_DEVICES"] = "4,5"
-
 
 # torch.backends.cudnn.enabled = False
 
