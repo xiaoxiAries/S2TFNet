@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
 
 """Train a video classification model."""
 import numpy as np
@@ -175,24 +174,6 @@ def eval_epoch(val_loader, model, val_meter, cur_epoch, cfg, writer=None):
     #     writer.add_scalars({"Val/mAP": val_meter.full_map}, global_step=cur_epoch)
 
     val_meter.reset()
-
-
-# def calculate_and_update_precise_bn(loader, model, num_iters=200):
-#     """
-#     Update the stats in bn layers by calculate the precise stats.
-#     Args:
-#         loader (loader): data loader to provide training data.
-#         model (model): model to update the bn stats.
-#         num_iters (int): number of iterations to compute and update the bn stats.
-#     """
-#
-#     def _gen_loader():
-#         for inputs, _ in loader:
-#             inputs = inputs.cuda(non_blocking=True)
-#             yield inputs
-#
-#     # Update the bn stats.
-#     update_bn_stats(model, _gen_loader(), num_iters)
 
 
 def build_trainer(cfg, device, local_rank):
