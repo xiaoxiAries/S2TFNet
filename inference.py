@@ -3,13 +3,13 @@
 import numpy as np
 import torch
 
-import Non_I3D.utils.checkpoint as cu
-import Non_I3D.utils.distributed as du
-import Non_I3D.utils.logging as logging
-import Non_I3D.utils.misc as misc
-from Non_I3D.datasets import loader
-from Non_I3D.models.build import build_model
-from Non_I3D.utils.meters import TestMeter
+import SaliNet.utils.checkpoint as cu
+import SaliNet.utils.distributed as du
+import SaliNet.utils.logging as logging
+import SaliNet.utils.misc as misc
+from SaliNet.datasets import loader
+from SaliNet.models.build import build_model
+from SaliNet.utils.meters import TestMeter
 
 logger = logging.get_logger(__name__)
 
