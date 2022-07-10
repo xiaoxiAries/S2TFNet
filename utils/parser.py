@@ -6,8 +6,8 @@
 import argparse
 import sys
 
-import Non_I3D.utils.checkpoint as cu
-from Non_I3D.defaults_1 import get_cfg
+import SaliNet.utils.checkpoint as cu
+from SaliNet.defaults_1 import get_cfg
 
 
 def parse_args():
