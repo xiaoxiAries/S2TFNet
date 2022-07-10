@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import Non_I3D.utils.logging as logging
+import SaliNet.utils.logging as logging
 import numpy as np
 import os
 import random
