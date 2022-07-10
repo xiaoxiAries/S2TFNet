@@ -3,7 +3,7 @@
 
 """Set up Environment."""
 
-import Non_I3D.utils.logging as logging
+import SaliNet.utils.logging as logging
 
 _ENV_SETUP_DONE = False
 
