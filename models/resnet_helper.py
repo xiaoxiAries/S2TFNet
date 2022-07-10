@@ -5,7 +5,7 @@
 
 import torch.nn as nn
 
-from Non_I3D.models.nonlocal_helper import Nonlocal
+from SaliNet.models.nonlocal_helper import Nonlocal
 
 
 def get_trans_func(name):
