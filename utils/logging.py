@@ -12,7 +12,7 @@ import sys
 import simplejson
 from fvcore.common.file_io import PathManager
 
-import Non_I3D.utils.distributed as du
+import SaliNet.utils.distributed as du
 
 
 def _suppress_print():
