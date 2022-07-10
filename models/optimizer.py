@@ -5,7 +5,7 @@
 
 import torch
 
-import Non_I3D.utils.lr_policy as lr_policy
+import SaliNet.utils.lr_policy as lr_policy
 
 
 def construct_optimizer(model, cfg):
