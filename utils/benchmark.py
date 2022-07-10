@@ -9,10 +9,10 @@ import torch
 import tqdm
 from fvcore.common.timer import Timer
 
-import Non_I3D.utils.logging as logging
-import Non_I3D.utils.misc as misc
-from Non_I3D.datasets import loader
-from Non_I3D.utils.env import setup_environment
+import SaliNet.utils.logging as logging
+import SaliNet.utils.misc as misc
+from SaliNet.datasets import loader
+from SaliNet.utils.env import setup_environment
 
 logger = logging.get_logger(__name__)
 
