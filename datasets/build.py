@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
 
-from Non_I3D.datasets.kinetics import Kinetics
-from Non_I3D.datasets.ucf101 import UCF101
-from Non_I3D.datasets.hmdb51 import HMDB51
-from Non_I3D.datasets.kinetics_inference import Kinetics_inference
-from Non_I3D.datasets.ucf101_inference import UCF_inference
+from SaliNet.datasets.kinetics import Kinetics
+from SaliNet.datasets.ucf101 import UCF101
+from SaliNet.datasets.hmdb51 import HMDB51
+from SaliNet.datasets.kinetics_inference import Kinetics_inference
+from SaliNet.datasets.ucf101_inference import UCF_inference
 
 
 def build_dataset(dataset_name, cfg, split):
