@@ -137,26 +137,6 @@ def get_flop_stats(model, cfg, is_train):
 #     activation = sum(activation_dict.values())
 #     return activation
 
-
-def log_model_info(model, cfg, is_train=True):
-    """
-    Log info, includes number of parameters, gpu usage and gflops.
-    Args:
-        model (model): model to log the info.
-        cfg (CfgNode): configs. Details can be found in
-            slowfast/config/defaults.py
-        is_train (bool): if True, log info for training. Otherwise,
-            log info for testing.
-    """
-    logger.info("Model:\n{}".format(model))
-    logger.info("Params: {:,}".format(params_count(model)))
-    logger.info("Mem: {:,} MB".format(gpu_mem_usage()))
-    logger.info("Flops: {:,} G".format(get_flop_stats(model, cfg, is_train)))
-    # logger.info("Activations: {:,} M".format(get_activation_stats(model, cfg, is_train)))
-    logger.info("nvidia-smi")
-    os.system("nvidia-smi")
-
-
 def is_eval_epoch(cfg, cur_epoch, multigrid_schedule):
     """
     Determine if the model should be evaluated at the current epoch.
