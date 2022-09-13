@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
-
 import os
 import random
 import Non_I3D.utils.logging as logging
@@ -13,8 +10,6 @@ import copy
 import torch.utils.data
 
 from . import utils as utils
-# cv2.setNumThreads(0)
-# cv2.ocl.setUseOpenCL(False)
 
 logger = logging.get_logger(__name__)
 
@@ -224,8 +219,6 @@ class Kinetics(torch.utils.data.Dataset):
                 index of the video replacement that can be decoded.
         """
 
-        # cv2.setNumThreads(0)
-        # cv2.ocl.setUseOpenCL(False)
 
         short_cycle_idx = None
         # When short cycle is used, input index is a tupple.
