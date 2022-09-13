@@ -5,7 +5,7 @@ This is the official implementation of the "SaliNet: Salient Spatio-Temporal Fea
 ```BibTeX
 @article{SaliNet,
 title = {SaliNet: Salient Spatio-Temporal Feature Mining Network for Video Classification},
-journal = {Knowledge-Based Systems},
+journal = {NeuroComputing},
 author = {Xiaoxi Liu and Ju Liu and Lingchen Gu and Yafeng Li and Xiaojun Chang and Feiping Nie},
 year = {2022}
 }
