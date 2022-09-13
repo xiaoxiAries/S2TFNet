@@ -66,5 +66,5 @@ DATA_LOADER:
 NUM_GPUS: 2
 NUM_SHARDS: 1
 RNG_SEED: 0
-OUTPUT_DIR: ./test_ssf_v9_rerun_gflops_0005/nonono/
+OUTPUT_DIR: ./
 
