@@ -266,8 +266,6 @@ def train(cfg, device, local_rank):
 
     # Build the video model and print model statistics.
     model = build_model(cfg, device, local_rank)
-    if du.is_master_proc() and cfg.LOG_MODEL_INFO:
-        misc.log_model_info(model, cfg, is_train=True)
 
     # Construct the optimizer.
     optimizer = optim.construct_optimizer(model, cfg)
