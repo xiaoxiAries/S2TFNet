@@ -11,9 +11,9 @@ from collections import OrderedDict
 import torch
 from fvcore.common.file_io import PathManager
 
-import SaliNet.utils.distributed as du
-import SaliNet.utils.logging as logging
-from SaliNet.utils.c2_model_loading import get_name_convert_func
+import S2TFNet.utils.distributed as du
+import S2TFNet.utils.logging as logging
+from S2TFNet.utils.c2_model_loading import get_name_convert_func
 
 logger = logging.get_logger(__name__)
 
