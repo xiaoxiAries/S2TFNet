@@ -11,8 +11,8 @@ import torch
 from fvcore.common.timer import Timer
 from sklearn.metrics import average_precision_score
 
-import SaliNet.utils.metrics as metrics
-import SaliNet.utils.misc as misc
+import S2TFNet.utils.metrics as metrics
+import S2TFNet.utils.misc as misc
 
 
 logger = logging.get_logger(__name__)
