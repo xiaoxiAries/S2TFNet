@@ -1,26 +1,27 @@
-# SaliNet: Salient Spatio-Temporal Feature Mining Network for Video Classification
+# Mining the Salient Spatio-Temporal Feature with S2TF-Net for Action Recognition
 
-This is the official implementation of the "SaliNet: Salient Spatio-Temporal Feature Mining Network for Video Classification":
+This is the official implementation of the "Mining the Salient Spatio-Temporal Feature with S2TF-Net for Action Recognition":
 
 ```BibTeX
-@article{SaliNet,
-title = {SaliNet: Salient Spatio-Temporal Feature Mining Network for Video Classification},
+@article{S2TF-Net,
+title = {Mining the Salient Spatio-Temporal Feature with S2TF-Net for Action Recognition},
 journal = {Signal Processing: Image Communication},
 author = {Xiaoxi Liu and Ju Liu and Lingchen Gu and Yafeng Li and Xiaojun Chang and Feiping Nie},
 year = {2022}
 }
 ```
 
-Recently, 3D Convolutional Neural Networks (3D ConvNets) have been widely exploited for video comprehension and achieved
-satisfying performance. However, the superior features are often drowned in numerous irrelevant information, which immensely
+Recently, 3D Convolutional Neural Networks (3D ConvNets) have been widely exploited for action recognition and achieved satisfying
+performance. However, the superior action features are often drowned in numerous irrelevant information, which immensely
 enhances the difficulty of video representation. To find a generic cost-efficient approach to balance the parameters and performance,
-we present a novel salient feature mining network based on 3D ConvNets backbone in an end-to-end manner, termed as Salient
-Spatio-temporal Feature Mining Network (SaliNet). Firstly, we extract the salient features of each 3D residual block by constructing
-a multi-scale Salient Semantic Feature Mining Module (SSF-Module). Then, with the aim of preserving the salient features in
-pooling operations, we establish a Two-branch Salient Feature Preserving Module (TSFP-Module). Besides, these above two
-modules with proper loss function can collaborate in an “easy-to-concat” fashion for most 3D Resnet backbones to classify more
-accurately albeit in the shallower network. Finally, we conduct experiments over three popular datasets: Kinetics-400, UCF101,
-and HMDB51, where our SaliNet is competitive compared with the deeper 3D backbones or current state-of-the-art results.
+we present a novel network to mine the salient feature based on 3D ConvNets backbone for action recognition, termed as
+Salient Spatio-temporal Feature Mining Network (S2TF-Net). Firstly, we extract the salient features of each 3D residual block by
+constructing a multi-scale Salient Semantic Feature Mining Module (SSF-Module). Then, with the aim of preserving the salient
+features in pooling operations, we establish a Two-branch Salient Feature Preserving Module (TSFP-Module). Besides, these above
+two modules with proper loss function can collaborate in an “easy-to-concat” fashion for most 3D ResNet backbones to classify
+more accurately albeit in the shallower network. Finally, we conduct experiments over three popular action recognition datasets:
+Kinetics-400, UCF101, and HMDB51, where our S2TF-Net is competitive compared with the deeper 3D backbones or current
+state-of-the-art results.
 
 ![Model Structure](figures/architecture.jpg "Model Structure")
 
