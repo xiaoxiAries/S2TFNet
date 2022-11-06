@@ -4,7 +4,7 @@
 import os
 from torch.utils.tensorboard import SummaryWriter
 
-import SaliNet.utils.logging as logging
+import S2TFNet.utils.logging as logging
 
 logger = logging.get_logger(__name__)
 
