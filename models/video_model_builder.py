@@ -5,11 +5,11 @@
 import torch.nn as nn
 import torch
 
-import SaliNet.utils.weight_init_helper as init_helper
-from SaliNet.models.batchnorm_helper import get_norm
+import S2TFNet.utils.weight_init_helper as init_helper
+from S2TFNet.models.batchnorm_helper import get_norm
 
 from . import resnet_helper, stem_helper
-from SaliNet.models.SSF_TSFP_Module import Sidelayer_3x3x3, Fusion_Temp_For_Mask, TSFP_1, TSFP_2
+from S2TFNet.models.SSF_TSFP_Module import Sidelayer_3x3x3, Fusion_Temp_For_Mask, TSFP_1, TSFP_2
 
 # Number of blocks for different stages given the model depth.
 _MODEL_STAGE_DEPTH = {50: (3, 4, 6, 3), 101: (3, 4, 23, 3)}
