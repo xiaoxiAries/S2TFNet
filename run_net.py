@@ -6,7 +6,7 @@
 import os
 import torch
 import torch.distributed as distributed
-from SaliNet.utils.parser import load_config, parse_args
+from S2TFNet.utils.parser import load_config, parse_args
 
 from train_net import train
 from inference import test
