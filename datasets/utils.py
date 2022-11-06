@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import SaliNet.utils.logging as logging
+import S2TFNet.utils.logging as logging
 import numpy as np
 import os
 import random
