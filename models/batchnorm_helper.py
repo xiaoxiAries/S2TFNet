@@ -9,7 +9,7 @@ import torch.distributed as dist
 import torch.nn as nn
 from torch.autograd.function import Function
 
-import SaliNet.utils.distributed as du
+import S2TFNet.utils.distributed as du
 
 
 def get_norm(cfg):
