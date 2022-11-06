@@ -3,13 +3,13 @@
 import numpy as np
 import torch
 
-import SaliNet.utils.checkpoint as cu
-import SaliNet.utils.distributed as du
-import SaliNet.utils.logging as logging
-import SaliNet.utils.misc as misc
-from SaliNet.datasets import loader
-from SaliNet.models.build import build_model
-from SaliNet.utils.meters import TestMeter
+import S2TFNet.utils.checkpoint as cu
+import S2TFNet.utils.distributed as du
+import S2TFNet.utils.logging as logging
+import S2TFNet.utils.misc as misc
+from S2TFNet.datasets import loader
+from S2TFNet.models.build import build_model
+from S2TFNet.utils.meters import TestMeter
 
 logger = logging.get_logger(__name__)
 
