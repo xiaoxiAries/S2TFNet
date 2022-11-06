@@ -6,8 +6,8 @@
 import argparse
 import sys
 
-import SaliNet.utils.checkpoint as cu
-from SaliNet.defaults_1 import get_cfg
+import S2TFNet.utils.checkpoint as cu
+from S2TFNet.defaults_1 import get_cfg
 
 
 def parse_args():
@@ -26,7 +26,7 @@ def parse_args():
             overwrites the config loaded from file.
         """
     parser = argparse.ArgumentParser(
-        description="Provide SaliNet video training and testing pipeline."
+        description="Provide S2TFNet video training and testing pipeline."
     )
     parser.add_argument(
         "--shard_id",
@@ -58,7 +58,7 @@ def parse_args():
         "--cfg",
         dest="cfg_file",
         help="Path to the config file",
-        default="/home/lxx/pytorch/SaliNet/SaliNet_non_local/Non_I3D/Nonlocal_I3D_R50.yaml",
+        default="/home/lxx/pytorch/S2TFNet/S2TFNet_non_local/Non_I3D/Nonlocal_I3D_R50.yaml",
         type=str,
     )
     parser.add_argument(
