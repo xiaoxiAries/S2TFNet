@@ -7,7 +7,7 @@ from torch.utils.data.dataloader import default_collate
 from torch.utils.data.distributed import DistributedSampler
 from torch.utils.data.sampler import RandomSampler
 
-from SaliNet.datasets.multigrid_helper import ShortCycleBatchSampler
+from S2TFNet.datasets.multigrid_helper import ShortCycleBatchSampler
 
 from .build import build_dataset
 
