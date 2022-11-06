@@ -4,19 +4,19 @@
 import numpy as np
 import pprint
 import torch
-import SaliNet.models.losses as losses
-import SaliNet.models.optimizer as optim
-import SaliNet.utils.logging as logging
-import SaliNet.utils.checkpoint as cu
-import SaliNet.utils.distributed as du
-import SaliNet.utils.metrics as metrics
-import SaliNet.utils.misc as misc
-import SaliNet.utils.tensorboard_vis as tb
+import S2TFNet.models.losses as losses
+import S2TFNet.models.optimizer as optim
+import S2TFNet.utils.logging as logging
+import S2TFNet.utils.checkpoint as cu
+import S2TFNet.utils.distributed as du
+import S2TFNet.utils.metrics as metrics
+import S2TFNet.utils.misc as misc
+import S2TFNet.utils.tensorboard_vis as tb
 from fvcore.nn.precise_bn import get_bn_modules, update_bn_stats
-from SaliNet.datasets import loader
-from SaliNet.models.build import build_model
-from SaliNet.utils.meters import TrainMeter, ValMeter
-from SaliNet.utils.multigrid import MultigridSchedule
+from S2TFNet.datasets import loader
+from S2TFNet.models.build import build_model
+from S2TFNet.utils.meters import TrainMeter, ValMeter
+from S2TFNet.utils.multigrid import MultigridSchedule
 
 logger = logging.get_logger(__name__)
 
