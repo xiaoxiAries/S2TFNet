@@ -1,4 +1,4 @@
-## This is the yaml about Sali_Non_Local_Net
+## This is the yaml about S2TFNet_Non_Local_Net
 MULTIGRID:
   SHORT_CYCLE: False
   LONG_CYCLE: False
