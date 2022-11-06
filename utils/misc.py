@@ -14,9 +14,9 @@ from matplotlib import pyplot as plt
 from torch import nn
 from fvcore.nn.flop_count import flop_count
 from iopath.common.file_io import g_pathmgr
-import SaliNet.utils.logging as logging
-import SaliNet.utils.multiprocessing as mpu
-from SaliNet.models.batchnorm_helper import SubBatchNorm3d
+import S2TFNet.utils.logging as logging
+import S2TFNet.utils.multiprocessing as mpu
+from S2TFNet.models.batchnorm_helper import SubBatchNorm3d
 
 
 logger = logging.get_logger(__name__)
