@@ -5,7 +5,7 @@
 
 import torch
 
-import SaliNet.utils.lr_policy as lr_policy
+import S2TFNet.utils.lr_policy as lr_policy
 
 
 def construct_optimizer(model, cfg):
