@@ -5,7 +5,7 @@
 
 import torch.nn as nn
 
-from SaliNet.models.nonlocal_helper import Nonlocal
+from S2TFNet.models.nonlocal_helper import Nonlocal
 
 
 def get_trans_func(name):
