@@ -3,7 +3,7 @@
 
 """Set up Environment."""
 
-import SaliNet.utils.logging as logging
+import S2TFNet.utils.logging as logging
 
 _ENV_SETUP_DONE = False
 
