@@ -9,10 +9,10 @@ import torch
 import tqdm
 from fvcore.common.timer import Timer
 
-import SaliNet.utils.logging as logging
-import SaliNet.utils.misc as misc
-from SaliNet.datasets import loader
-from SaliNet.utils.env import setup_environment
+import S2TFNet.utils.logging as logging
+import S2TFNet.utils.misc as misc
+from S2TFNet.datasets import loader
+from S2TFNet.utils.env import setup_environment
 
 logger = logging.get_logger(__name__)
 
